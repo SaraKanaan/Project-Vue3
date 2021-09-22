@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="282" height="101" viewBox="0 0 282 101">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_691" data-name="Rectangle 691" width="282" height="101" transform="translate(2469 -616)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Exclusion_1" x="-9" y="-6" width="300" height="325" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#6a96b7" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_9" data-name="Mask Group 9" transform="translate(-2469 616)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 2469, -616)" filter="url(#Exclusion_1)">
+      <path id="Exclusion_1-2" data-name="Exclusion 1" d="M274,307H8c-4.411,0-8-3.314-8-7.386V129H282V299.614C282,303.686,278.411,307,274,307Zm8-215.132h0c-.167-.051-17.426-5.295-42.895-10.434C215.515,76.674,179.751,71,143.333,71s-73.45,5.674-98.1,10.433C18.529,86.588.182,91.814,0,91.867V0H282V91.866Z" fill="#c8d3dd"/>
+    </g>
+  </g>
+</svg>

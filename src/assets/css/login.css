@@ -1,0 +1,329 @@
+﻿@font-face {
+    font-family: "din";
+    src: url("../fonts/DIN NEXT™ ARABIC REGULAR.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "din meduim";
+    src: url("../fonts/DIN NEXT™ ARABIC MEDIUM .otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded";
+    src: url("../fonts/GothamRnd-Book.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded bold";
+    src: url("../fonts/GothamRnd-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded medium";
+    src: url("../fonts/GothamRnd-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Rounded lighter";
+    src: url("../fonts/GothamRnd-Light.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url("../fonts/JF-Flat-regular.eot");
+    src: url("../fonts/JF-Flat-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/JF-Flat-regular.svg#JF Flat Regular") format("svg"), url("../fonts/JF-Flat-regular.woff") format("woff"), url("../fonts/JF-Flat-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #E8EDF2;
+    font-family: "Gotham Rounded","din" !important;
+    /*background-image: url('../images/Mask Group 1.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size:160px;*/
+}
+
+.login-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .28;
+    -webkit-filter: blur(6px);
+    filter: blur(6px);
+    position: absolute;
+    z-index: -1;
+}
+
+.login-form {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+    z-index: 999999;
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    width: 400px;
+    background-image: url('../images/mask_group_11.png');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    border-bottom: 6px solid #C1A052;
+    overflow: hidden;
+}
+
+    .login-form img {
+        height: 70px;
+        margin: -10px auto 0 auto;
+    }
+
+    .login-form h5 {
+        color: #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.3vw;
+    }
+
+label {
+    color: #708790;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn {
+    border-radius: 180px;
+    font-size: 13px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .5rem .75rem;
+    line-height: 9px;
+}
+
+.btn-primary {
+    color: #E6EEF5;
+    background-color: #C1A052;
+    border-color: #C1A052;
+}
+
+    .btn-primary:hover {
+        background-color: #34363a;
+        border-color: #34363a;
+    }
+
+input {
+    background-color: #ffffff;
+    border: 1px solid #cdd8dc;
+    color: #708790;
+    font-size: 13px;
+}
+
+.link-style {
+    color: #708790;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+    .link-style:hover {
+        text-decoration: underline;
+        color: #34363a;
+    }
+
+.forgot-password {
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 0%;
+    left: 0px;
+    border-radius: 7px;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 0px;
+    background-image: url('../images/mask_group_11.png');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+    .forgot-password.show {
+        height: 100%;
+        top: 0px;
+        padding: 2rem 1em;
+    }
+
+
+.calendars-popup {
+    z-index: 999999 !important;
+}
+
+
+.registration-form {
+    transition: 0.1s;
+    opacity: 0;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 0%;
+    left: 0px;
+    border-radius: 4px;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 0px;
+    background-image: url('../images/mask_group_12.png');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+.Thanks-message {
+    transition: 0.1s;
+    opacity: 0;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 0%;
+    left: 0px;
+    border-radius: 4px;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 0px;
+    background-image: url('../images/mask_group_12.png');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+    .Thanks-message.show {
+        opacity: 1;
+        z-index: 999999;
+        height: 100%;
+        top: 0px;
+        padding: 1.5rem 1em;
+    }
+
+.registration-form.show {
+    opacity: 1;
+    z-index: 999999;
+    height: 100%;
+    top: 0px;
+    padding: 1.5rem 1em;
+}
+
+.login-form.registration {
+    width: 800px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5vh;
+    height: 640px;
+}
+
+.login-form.thanks-style {
+    top: 15vh;
+    height: 320px;
+}
+
+
+@media (max-width: 992px) {
+    .sm-scroll {
+        height: 64vh;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+
+    .login-form {
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 10%;
+    }
+
+        .login-form.registration {
+            width: 90% !important;
+            height: auto;
+            overflow: scroll !important;
+            height: 90vh;
+        }
+
+            .login-form.registration.thanks-style {
+                top: 15vh;
+                height: 320px;
+                overflow: hidden !important;
+            }
+
+    .registration-form.show {
+        height: 100%;
+    }
+
+    .registration-form {
+        background-image: url(../images/mask_group_11.png);
+        background-size: 100%;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    .Thanks-message {
+        background-image: url(../images/mask_group_11.png);
+        background-size: 100%;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+
+    .login-form h5 {
+        font-size: 16px;
+        margin-top: 14px !important;
+    }
+
+    .login-form img {
+        margin-top: -10px;
+    }
+}
